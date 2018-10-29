@@ -1,14 +1,16 @@
+body {
+    background-image: url("images/tennis.jpg");
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url("../images/bg.jpg");
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 img {
@@ -46,9 +48,8 @@ h1 {
 }
 
 .content {
-    padding: 10px;
+	padding: 10px;
 }
-
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
