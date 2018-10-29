@@ -57,6 +57,10 @@ h1 {
 	height: auto;
 	float: right;
 }
+a {
+    text-decoration:none;
+    color: white;
+}
 img {
 	border-radius: 3%;
 }
