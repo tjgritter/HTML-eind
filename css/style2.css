@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/zwart.jpg");
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+img {
+    width: 100%;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+	padding: 10px;
+}
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.tekstinhoud {
+
+float: right;
+width: 320px;
+
+}
