@@ -1,0 +1,42 @@
+.MainContent {
+	width: 800px;
+	height: 555px;
+	padding: 20px;
+	margin: auto;
+	background-color: lightgrey;
+	color: grey;
+}
+
+.SideBar{
+	float: left;
+
+}
+
+.TextContent{
+	width: 675px;
+	margin-left: 120px;
+	text-align: justify;
+}
+
+.pLinks{
+
+	width: 142px;
+	float: left;
+	height: 140px;
+	margin-right: 40px;
+}
+.pLinks div{
+	width: 150px;
+	height: 100px;
+
+}
+
+.pLinks a{
+	margin-top: 15px;
+	color: gray;
+}
+
+.imageRow{
+	width: 550px;
+	height: 360px;
+}
