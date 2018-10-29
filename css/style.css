@@ -1,57 +1,60 @@
 * {
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background-image: url("../images/bg.jpg");
-	background-size: cover;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
 }
 
-
-
-.MainContent {
-	width: 800px;
-	height: 600px;
-	padding: 20px;
-	margin: auto;
-	background-color: white;
-	border-style: solid;
-	border-radius: 5px;
-	border-color: #0d726a;
+img {
+    width: 100%;
 }
 
-.SideBar{
-	float: left;
-
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
-.TextContent{
-	width: 675px;
-	margin-left: 120px;
-	margin-top: 120px;
-	text-align: justify;
+h1 {
+    font-size: 50px;
+    word-break: break-all;
 }
 
-.pLinks{
-
-	width: 142px;
-	float: left;
-	height: 140px;
-	margin-right: 40px;
-}
-.pLinks div{
-	width: 150px;
-	height: 100px;
-
+.row {
+    margin: 8px -16px;
 }
 
-.pLinks a{
-	margin-top: 15px;
-	color: gray;
+.row,
+.row > .column {
+    padding: 8px;
 }
 
-.imageRow{
-	width: 550px;
-	height: 360px;
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
