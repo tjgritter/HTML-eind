@@ -11,6 +11,10 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
+#bodyqt{
+		background-image: url("../images/BGQT.jpg");
+		background-size: cover;
+}
 img {
     width: 100%;
 }
@@ -59,4 +63,8 @@ h1 {
     .column {
         width: 100%;
     }
+}
+a {
+    text-decoration:none;
+    color: white;
 }
