@@ -15,12 +15,12 @@ body {
 		background-size: cover;
 }
 img {
-    width: 200px;
+    max-width: 200px;
     height: auto;
 }
 
 .main {
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -55,7 +55,13 @@ h1 {
 }
 
 .content2 {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+input, textarea {
+    width: 100%;
 }
 
 @media screen and (max-width: 900px) {
