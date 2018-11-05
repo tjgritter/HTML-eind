@@ -83,8 +83,9 @@ a {
     float: right;
 }
 
-.achtergrond2 {
-
+#thimo {
+	background-image: url(images/zwart.png);
+	background-size: cover;
 }
 
 #timachtergrond 
@@ -96,4 +97,9 @@ a {
 #bodyDennis {
   background-image: url("../images/voetbalAchtergrond.jpg");
   background-size: cover;
+}
+
+.tekstinhoud {
+	float: right;
+	width: 350px;
 }
