@@ -3,12 +3,9 @@
 }
 
 body {
-    background-image: url("../images/bg.jpg");
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 #bodyqt{
@@ -50,6 +47,7 @@ h1 {
 }
 
 .content {
+    background-color: white;
     padding: 10px;
 }
 
