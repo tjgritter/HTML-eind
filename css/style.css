@@ -87,6 +87,12 @@ a {
 
 }
 
+#timachtergrond 
+{
+    background-image: url("../images/bgtim.jpg");
+    background-size: cover;
+}
+
 #bodyDennis {
   background-image: url("../images/voetbalAchtergrond.jpg");
   background-size: cover;
