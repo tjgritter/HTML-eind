@@ -3,12 +3,11 @@
 }
 
 body {
-    background-image: url("../images/bg.jpg");
     background-color: #f1f1f1;
     padding: 20px;
-    font-family: Arial;
+    font-family: sans-serif, verdana, sans-seif;
     color: white;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 #bodyqt{
@@ -16,7 +15,8 @@ body {
 		background-size: cover;
 }
 img {
-    width: 100%;
+    width: 200px;
+    height: 150px;
 }
 
 .main {
@@ -51,6 +51,7 @@ h1 {
 
 .content {
     padding: 10px;
+    background-color: white;
 }
 
 @media screen and (max-width: 900px) {
