@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Atleten</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,15 +57,15 @@
 			</div>
 
 			<div class="content2">
-			<form method="POST" action="$_SERVER['PHP_SELF']">
+			<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 				Naam:
-				<input type="text" name="name"></br>
+				<input type="text" name="name"><br>
 				Email:
-				<input type="email" name="email"></br>
+				<input type="email" name="email"><br>
 				Onderwerp:
-				<input type="text" name="onderwerp"></br>
+				<input type="text" name="onderwerp"><br>
 				Bericht:
-				<textarea rows="3" name="bericht" placeholder="Typ hier uw bericht..."></textarea></br>
+				<textarea rows="3" name="bericht" placeholder="Typ hier uw bericht..."></textarea><br>
 				<input type="submit" name="submit" value="Verzenden">
 			</form>
 			</div>

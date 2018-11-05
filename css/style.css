@@ -131,3 +131,9 @@ figure:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
+.avatarRight{
+  float: right;
+}
+.videoQt{
+  float: left;
+}
